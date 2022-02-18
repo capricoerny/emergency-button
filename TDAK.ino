@@ -4,12 +4,12 @@
 #define BLYNK_PRINT Serial
 #define BUTTON_PIN 21
 
-int lastState = HIGH; // the previous state from the input pin
-int currentState;     // the current reading from the input pin
+int lastState = HIGH;
+int currentState;
 
-char auth[] = "5ujUu4u2SRlQldW4q2z1NamydT-BEsG2"; //Auth code sent via Email
-const char *ssid = "Fadh";
-const char *pass = "12345678";
+char auth[] = "Auth code yang dikirm ke email pendaftaran";
+const char *ssid = "Nama Wifi";
+const char *pass = "Password";
 
 void setup() {
   // put your setup code here, to run once:
