@@ -3,7 +3,6 @@
 
 #define BLYNK_PRINT Serial
 #define BUTTON_PIN 21
-WidgetMap myMap(V1);
 
 int lastState = HIGH; // the previous state from the input pin
 int currentState;     // the current reading from the input pin
